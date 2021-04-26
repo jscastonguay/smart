@@ -1,3 +1,6 @@
+# Répertoire de sortie
+build/
+
 # Prerequisites
 *.d
 
