@@ -30,9 +30,15 @@ void Operateur::process() {
     case MOD:
         value = (int)lVal % (int)rVal;
         break;
+    default:
+        break;
     }
 }
 
-void Operateur::mute() { setNewOperation(); }
+void Operateur::mute() {
+
+    // TODO: doit aussi pouvoir changer les liens !!!
+    setNewOperation();
+}
 
 float Operateur::getValue() { return value; }

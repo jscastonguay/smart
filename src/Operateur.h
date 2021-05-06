@@ -1,8 +1,8 @@
 #ifndef OPERATEUR_H
 #define OPERATEUR_H
 
-#include <stdlib.h>
 #include "Cellule.h"
+#include <stdlib.h>
 
 class Operateur : public Cellule {
 

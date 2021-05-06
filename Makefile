@@ -3,8 +3,8 @@ TARGET_EXEC := smart
 BUILD_DIR := ./build
 SRC_DIRS := ./
 
-CFLAGS := -ggdb
-CXXFLAGS := -ggdb
+CFLAGS := -ggdb -Wall -Wextra
+CXXFLAGS := -ggdb -Wall -Wextra
 LDFLAGS := -lstdc++
 
 # Find all the C and C++ files we want to compile
