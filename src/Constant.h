@@ -21,6 +21,7 @@ class Constant : public Cellule {
     void process();
     float getValue();
     void mute();
+    void mute(Cellule & interaction);
 };
 
 #endif

@@ -17,3 +17,8 @@ void Constant::mute() {
     factor = (factor / RAND_MAX) * MULTIPIER;
     setSign(&factor);
 }
+
+void Constant::mute(Cellule &interaction) {
+    (void)interaction;
+    mute();
+}

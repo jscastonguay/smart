@@ -2,5 +2,12 @@
     "files.associations": {
         "optional": "cpp",
         "system_error": "cpp"
-    }
+    },
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/mnt/c/Users/Proprietaire/Documents/github/smart/build",
+            "binaryPath": "/mnt/c/Users/Proprietaire/Documents/github/smart/build/smart",
+            "binaryArgs": []
+        }
+    ]
 }

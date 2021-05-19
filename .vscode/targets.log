@@ -1,0 +1,332 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+ 
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue May 18 20:47:49 2021
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+WSLENV = VSCODE_WSL_EXT_LOCATION/up
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_AGENT_FOLDER = /home/jsc/.vscode-server
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 28)
+CPPFLAGS := -I./ -I./.git -I./.git/hooks -I./.git/info -I./.git/logs -I./.git/logs/refs -I./.git/logs/refs/heads -I./.git/logs/refs/remotes -I./.git/logs/refs/remotes/origin -I./.git/objects -I./.git/objects/02 -I./.git/objects/0b -I./.git/objects/11 -I./.git/objects/1b -I./.git/objects/20 -I./.git/objects/36 -I./.git/objects/40 -I./.git/objects/51 -I./.git/objects/52 -I./.git/objects/53 -I./.git/objects/59 -I./.git/objects/5a -I./.git/objects/60 -I./.git/objects/65 -I./.git/objects/69 -I./.git/objects/70 -I./.git/objects/7e -I./.git/objects/7f -I./.git/objects/8c -I./.git/objects/8f -I./.git/objects/99 -I./.git/objects/9d -I./.git/objects/af -I./.git/objects/b5 -I./.git/objects/b7 -I./.git/objects/be -I./.git/objects/c0 -I./.git/objects/c1 -I./.git/objects/c4 -I./.git/objects/c6 -I./.git/objects/ca -I./.git/objects/cb -I./.git/objects/d0 -I./.git/objects/d3 -I./.git/objects/d4 -I./.git/objects/d5 -I./.git/objects/d7 -I./.git/objects/da -I./.git/objects/db -I./.git/objects/ec -I./.git/objects/f0 -I./.git/objects/f8 -I./.git/objects/info -I./.git/objects/pack -I./.git/refs -I./.git/refs/heads -I./.git/refs/remotes -I./.git/refs/remotes/origin -I./.git/refs/tags -I./.vscode -I./build -I./build/src -I./src -MMD -MP
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /mnt/c/Users/Proprietaire/Documents/github/smart
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /home/jsc/.vscode-server/bin/054a9295330880ed74ceaedda236253b4f39a335/node
+# makefile (from 'Makefile', line 6)
+CFLAGS := -ggdb -Wall -Wextra
+# makefile (from 'Makefile', line 22)
+INC_DIRS := ./ ./.git ./.git/hooks ./.git/info ./.git/logs ./.git/logs/refs ./.git/logs/refs/heads ./.git/logs/refs/remotes ./.git/logs/refs/remotes/origin ./.git/objects ./.git/objects/02 ./.git/objects/0b ./.git/objects/11 ./.git/objects/1b ./.git/objects/20 ./.git/objects/36 ./.git/objects/40 ./.git/objects/51 ./.git/objects/52 ./.git/objects/53 ./.git/objects/59 ./.git/objects/5a ./.git/objects/60 ./.git/objects/65 ./.git/objects/69 ./.git/objects/70 ./.git/objects/7e ./.git/objects/7f ./.git/objects/8c ./.git/objects/8f ./.git/objects/99 ./.git/objects/9d ./.git/objects/af ./.git/objects/b5 ./.git/objects/b7 ./.git/objects/be ./.git/objects/c0 ./.git/objects/c1 ./.git/objects/c4 ./.git/objects/c6 ./.git/objects/ca ./.git/objects/cb ./.git/objects/d0 ./.git/objects/d3 ./.git/objects/d4 ./.git/objects/d5 ./.git/objects/d7 ./.git/objects/da ./.git/objects/db ./.git/objects/ec ./.git/objects/f0 ./.git/objects/f8 ./.git/objects/info ./.git/objects/pack ./.git/refs ./.git/refs/heads ./.git/refs/remotes ./.git/refs/remotes/origin ./.git/refs/tags ./.vscode ./build ./build/src ./src
+# makefile (from 'build/./src/Operator.cpp.d', line 1)
+MAKEFILE_LIST :=  Makefile build/./src/Constant.cpp.d build/./src/main.cpp.d build/./src/Operator.cpp.d
+# 'override' directive
+GNUMAKEFLAGS := 
+# makefile (from 'Makefile', line 7)
+CXXFLAGS := -ggdb -Wall -Wextra
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from 'Makefile', line 15)
+OBJS := ./build/./src/Constant.cpp.o ./build/./src/main.cpp.o ./build/./src/Operator.cpp.o
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /mnt/c/Users/Proprietaire/AppData/Local/Programs/Microsoft VS Code
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/jsc/.vscode-server/bin/054a9295330880ed74ceaedda236253b4f39a335/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Microchip/xc8/v2.00/bin:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Proprietaire/Documents/openshift/crc-windows-1.16.0-amd64:/mnt/c/Program Files (x86)/GitExtensions/:/mnt/c/Program Files/TortoiseGit/bin:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Users/Proprietaire/AppData/Local/Programs/AdoptOpenJDK/bin:/mnt/c/Users/Proprietaire/AppData/Local/Microsoft/WindowsApps:/mnt/c/cygwin64/bin:/mnt/c/cygwin64/usr/sbin:/mnt/c/cygwin64/sbin:/mnt/c/Users/Proprietaire/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Proprietaire/AppData/Roaming/npm:/mnt/c/Users/Proprietaire/.dotnet/tools:/mnt/c/Users/Proprietaire/Documents/transfers documents linux/Documents/ITQ/OpenShift/crc-windows-amd64:/mnt/c/Users/Proprietaire/Documents/transfers documents linux/Documents/ITQ/OpenShift/openshift-client-windows:/mnt/c/Users/Proprietaire/Documents/transfers documents linux/Documents/ITQ/OpenShift/tkn-windows-amd64-0.9.0:/mnt/c/terraform:/mnt/c/Program Files/Go/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/Proprietaire/AppData/Local/Programs/AdoptOpenJDK/bin:/mnt/c/Users/Proprietaire/AppData/Local/Microsoft/WindowsApps:/mnt/c/cygwin64/bin:/mnt/c/cygwin64/usr/sbin:/mnt/c/cygwin64/sbin:/mnt/c/Users/Proprietaire/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Proprietaire/Documents/transfers documents linux/Documents/ITQ/OpenShift/crc-windows-amd64:/mnt/c/Users/Proprietaire/Documents/transfers documents linux/Documents/ITQ/OpenShift/openshift-client-windows:/mnt/c/Users/Proprietaire/Documents/transfers documents linux/Documents/ITQ/OpenShift/tkn-windows-amd64-0.9.0:/mnt/c/terraform:/mnt/c/Users/Proprietaire/go/bin:/mnt/c/Users/Proprietaire/AppData/Local/Microsoft/WindowsApps:/snap/bin
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-c4012a4f-4bf6-48d0-b34c-d38b01f72153.sock
+# makefile (from 'Makefile', line 8)
+LDFLAGS := -lstdc++
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /mnt/c/Users/Proprietaire/Documents/github/smart
+# makefile (from 'Makefile', line 24)
+INC_FLAGS := -I./ -I./.git -I./.git/hooks -I./.git/info -I./.git/logs -I./.git/logs/refs -I./.git/logs/refs/heads -I./.git/logs/refs/remotes -I./.git/logs/refs/remotes/origin -I./.git/objects -I./.git/objects/02 -I./.git/objects/0b -I./.git/objects/11 -I./.git/objects/1b -I./.git/objects/20 -I./.git/objects/36 -I./.git/objects/40 -I./.git/objects/51 -I./.git/objects/52 -I./.git/objects/53 -I./.git/objects/59 -I./.git/objects/5a -I./.git/objects/60 -I./.git/objects/65 -I./.git/objects/69 -I./.git/objects/70 -I./.git/objects/7e -I./.git/objects/7f -I./.git/objects/8c -I./.git/objects/8f -I./.git/objects/99 -I./.git/objects/9d -I./.git/objects/af -I./.git/objects/b5 -I./.git/objects/b7 -I./.git/objects/be -I./.git/objects/c0 -I./.git/objects/c1 -I./.git/objects/c4 -I./.git/objects/c6 -I./.git/objects/ca -I./.git/objects/cb -I./.git/objects/d0 -I./.git/objects/d3 -I./.git/objects/d4 -I./.git/objects/d5 -I./.git/objects/d7 -I./.git/objects/da -I./.git/objects/db -I./.git/objects/ec -I./.git/objects/f0 -I./.git/objects/f8 -I./.git/objects/info -I./.git/objects/pack -I./.git/refs -I./.git/refs/heads -I./.git/refs/remotes -I./.git/refs/remotes/origin -I./.git/refs/tags -I./.vscode -I./build -I./build/src -I./src
+# default
+.LOADED := 
+# environment
+WSL_INTEROP = /run/WSL/96_interop
+# makefile (from 'Makefile', line 4)
+SRC_DIRS := ./
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/server/remoteExtensionHostProcess
+# environment
+HOME = /home/jsc
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = jsc
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from 'Makefile', line 1)
+TARGET_EXEC := smart
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 11)
+SRCS := ./src/Constant.cpp ./src/main.cpp ./src/Operator.cpp
+# environment
+SHLVL = 0
+# makefile (from 'Makefile', line 3)
+BUILD_DIR := ./build
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = jsc
+# makefile
+.DEFAULT_GOAL := build/smart
+# environment
+NAME = JSC
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+VSCODE_WSL_EXT_LOCATION = /mnt/c/Users/Proprietaire/.vscode/extensions/ms-vscode-remote.remote-wsl-0.56.2
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# environment
+HOSTTYPE = x86_64
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 19)
+DEPS := ./build/./src/Constant.cpp.d ./build/./src/main.cpp.d ./build/./src/Operator.cpp.d
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH = /home/jsc/.vscode-server/bin/054a9295330880ed74ceaedda236253b4f39a335/remote/node_modules
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# environment
+WSL_DISTRO_NAME = Ubuntu
+# variable set hash-table stats:
+# Load=81/1024=8%, Rehash=0, Collisions=11/132=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 43, inode 7881299348166951): 11 files, no impossibilities.
+
+# 11 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+build/%.c.o: %.c
+#  recipe to execute (from 'Makefile', line 36):
+	mkdir -p $(dir $@)
+	$(CC) $(CPPFLAGS) $(CFLAGS) -c $< -o $@
+
+build/%.cpp.o: %.cpp
+#  recipe to execute (from 'Makefile', line 41):
+	mkdir -p $(dir $@)
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $< -o $@
+
+# 2 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+build/./src/main.cpp.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-15 14:31:27.0381764
+#  File has been updated.
+#  Successfully updated.
+
+src/Operator.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/smart: build/./src/Constant.cpp.o build/./src/main.cpp.o build/./src/Operator.cpp.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 32):
+	$(CC) $(OBJS) -o $@ $(LDFLAGS)
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+.PHONY: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/Cellule.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/Operator.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-05 21:19:07.902153
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/./src/Constant.cpp.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-15 14:31:18.1388248
+#  File has been updated.
+#  Successfully updated.
+
+build/./src/main.cpp.o: src/main.cpp src/Cellule.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/./src/Operator.cpp.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-15 14:31:33.7545116
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ 
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/./src/Constant.cpp.o: src/Constant.cpp src/Constant.h src/Cellule.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 47):
+	rm -r $(BUILD_DIR)
+
+# Not a target:
+src/main.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/./src/Operator.cpp.o: src/Operator.cpp src/Operator.h src/Cellule.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/Constant.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/Constant.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=19/1024=2%, Rehash=0, Collisions=0/53=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 35 / storage = 440 B / avg = 12 B
+# current buf: size = 8162 B / used = 440 B / count = 35 / avg = 12 B
+
+# strcache performance: lookups = 64 / hit rate = 45%
+# hash-table stats:
+# Load=35/8192=0%, Rehash=0, Collisions=1/64=2%
+# Finished Make data base on Tue May 18 20:47:49 2021
+
+ 

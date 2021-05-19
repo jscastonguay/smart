@@ -1,17 +1,18 @@
-#ifndef OPERATEUR_H
-#define OPERATEUR_H
+#ifndef OPERATOR_H
+#define OPERATOR_H
 
 #include "Cellule.h"
 #include <stdlib.h>
 
-class Operateur : public Cellule {
+class Operator : public Cellule {
 
   public:
-    Operateur();
-    Operateur(Cellule *, Cellule *);
+    Operator();
+    Operator(Cellule *, Cellule *);
 
     void process();
     void mute();
+    void mute(Cellule * interaction);
     float getValue();
 
   private:
