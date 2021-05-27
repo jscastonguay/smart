@@ -17,7 +17,7 @@ class Cellule {
     virtual void process() = 0;
     virtual float getValue() = 0;
     virtual void mute() = 0;
-    virtual void mute(Cellule &) = 0;
+    virtual void mute(Cellule *) = 0;
 };
 
 #endif

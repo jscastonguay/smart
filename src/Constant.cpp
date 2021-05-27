@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 Constant::Constant() {
-    value = rand();
+    value = rand() % STARTING_RANGE;
     setSign(&value);
 }
 
@@ -18,7 +18,7 @@ void Constant::mute() {
     setSign(&factor);
 }
 
-void Constant::mute(Cellule &interaction) {
+void Constant::mute(Cellule * interaction) {
     (void)interaction;
     mute();
 }

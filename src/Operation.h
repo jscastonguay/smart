@@ -1,14 +1,14 @@
-#ifndef OPERATOR_H
-#define OPERATOR_H
+#ifndef OPERATION_H
+#define OPERATION_H
 
 #include "Cellule.h"
 #include <stdlib.h>
 
-class Operator : public Cellule {
+class Operation : public Cellule {
 
   public:
-    Operator();
-    Operator(Cellule *, Cellule *);
+    Operation();
+    Operation(Cellule *, Cellule *);
 
     void process();
     void mute();
@@ -16,24 +16,24 @@ class Operator : public Cellule {
     float getValue();
 
   private:
-    enum Operation {
+    enum BaseOperation {
         ADD,
         SOUS,
         MUL,
         DIV,
         MOD,
 
-        NB_OF_OPERATIONS
+        NB_OF_BASE_OPERATIONS
     };
 
     inline void setNewOperation() {
-        operation = (Operation)(rand() % (int)NB_OF_OPERATIONS);
+        operation = (BaseOperation)(rand() % (int)NB_OF_BASE_OPERATIONS);
     }
 
     float value;
     Cellule * operandL;
     Cellule * operandR;
-    Operation operation;
+    BaseOperation operation;
 };
 
 #endif

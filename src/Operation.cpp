@@ -1,16 +1,16 @@
-#include "Operator.h"
+#include "Operation.h"
 #include <assert.h>
 
-Operator::Operator() : value(0.0), operandL(nullptr), operandR(nullptr) {
+Operation::Operation() : value(0.0), operandL(nullptr), operandR(nullptr) {
     setNewOperation();
 }
 
-Operator::Operator(Cellule * operandL, Cellule * operandR)
+Operation::Operation(Cellule * operandL, Cellule * operandR)
     : value(0.0), operandL(operandL), operandR(operandR) {
     setNewOperation();
 }
 
-void Operator::process() {
+void Operation::process() {
 
     assert(operandL != nullptr);
     assert(operandR != nullptr);
@@ -29,6 +29,7 @@ void Operator::process() {
         value = lVal * rVal;
         break;
     case DIV:
+        // TODO: Division par Zero
         value = lVal / rVal;
         break;
     case MOD:
@@ -39,9 +40,9 @@ void Operator::process() {
     }
 }
 
-void Operator::mute() { setNewOperation(); }
+void Operation::mute() { setNewOperation(); }
 
-void Operator::mute(Cellule * interaction) {
+void Operation::mute(Cellule * interaction) {
 
     assert(interaction != nullptr);
 
@@ -60,4 +61,4 @@ void Operator::mute(Cellule * interaction) {
     choosen->addReference();
 }
 
-float Operator::getValue() { return value; }
+float Operation::getValue() { return value; }

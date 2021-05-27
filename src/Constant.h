@@ -9,6 +9,7 @@ class Constant : public Cellule {
   private:
     float value;
     const int MULTIPIER = 2;
+    const int STARTING_RANGE = 100;
 
     inline void setSign(float * value) {
         if (rand() % 2 == 0) {
@@ -21,7 +22,7 @@ class Constant : public Cellule {
     void process();
     float getValue();
     void mute();
-    void mute(Cellule & interaction);
+    void mute(Cellule * interaction);
 };
 
 #endif
