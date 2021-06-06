@@ -1,7 +1,7 @@
 TARGET_EXEC := smart
 
 BUILD_DIR := ./build
-SRC_DIRS := ./
+SRC_DIRS := ./src
 
 CFLAGS := -ggdb -Wall -Wextra
 CXXFLAGS := -ggdb -Wall -Wextra
